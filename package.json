@@ -1,0 +1,33 @@
+{
+  "name": "varuint-ravencoin",
+  "version": "1.1.0",
+  "description": "encode/decode number as ravencoin variable length integer",
+  "homepage": "https://github.com/raven-community/varuint-ravencoin",
+  "bugs": {
+    "url": "https://github.com/raven-community/varuint-ravencoin/issues"
+  },
+  "license": "MIT",
+  "author": "MSFTserver",
+  "files": [
+    "index.js"
+  ],
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raven-community/varuint-ravencoin.git"
+  },
+  "scripts": {
+    "coverage": "nyc --check-coverage --branches 100 --functions 100 tape test/*.js",
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "tape test/*.js"
+  },
+  "dependencies": {
+    "safe-buffer": "^5.1.1"
+  },
+  "devDependencies": {
+    "nyc": "^11.4.1",
+    "standard": "*",
+    "tape": "^4.5.1"
+  }
+}
