@@ -1,6 +1,6 @@
 {
   "name": "varuint-ravencoin",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "encode/decode number as ravencoin variable length integer",
   "homepage": "https://github.com/raven-community/varuint-ravencoin",
   "bugs": {
